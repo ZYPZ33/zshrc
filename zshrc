@@ -19,7 +19,7 @@ alias emacs='emacsclient -c -a emacs' # runs emacsclient rather than emacs (requ
 alias mpv-nv='mpv --no-video' # mpv-nv is mpv --no-video, for audio
 alias vimR='vim -R' # run vim in read-only mode
 
-alias cd..='cd ..'
-alias l1='ls -1'
+alias cd..='cd ..' # my favourite feature from CP/M
+alias l1='ls -1' # list one item per line
 
 alias AI='tgpt'
