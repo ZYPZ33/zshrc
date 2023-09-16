@@ -14,9 +14,12 @@ function wiki { dig +short txt ${1}.wp.dg.cx } # function to access wikipedia
 
 alias getip-local="ip a|grep 'inet.*/'|tail -n1|awk '{print \$2}'"
 alias getip-global-'curl -4s icanhazip.com'
+
 alias emacs='emacsclient -c -a emacs'
 alias mpv-nv='mpv --no-video'
 alias vimR='vim -R'
+
 alias cd..='cd ..'
 alias l1='ls -1'
+
 alias AI='tgpt'
