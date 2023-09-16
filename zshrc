@@ -12,8 +12,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 WLAN0="wlp3s0" # easily acces network interface
 function wiki { dig +short txt ${1}.wp.dg.cx } # function to access wikipedia
 
-alias getip-local="ip a|grep 'inet.*/'|tail -n1|awk '{print \$2}'"
-alias getip-global-'curl -4s icanhazip.com'
+alias getip-local="ip a|grep 'inet.*/'|tail -n1|awk '{print \$2}'" # returns local ip address
+alias getip-global-'curl -4s icanhazip.com' # returns global ip address
 
 alias emacs='emacsclient -c -a emacs'
 alias mpv-nv='mpv --no-video'
