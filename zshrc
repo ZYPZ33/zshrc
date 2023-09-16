@@ -22,4 +22,4 @@ alias vimR='vim -R' # run vim in read-only mode
 alias cd..='cd ..' # my favourite feature from CP/M
 alias l1='ls -1' # list one item per line
 
-alias AI='tgpt'
+alias AI='tgpt' # AI runs chatgpt-cli
