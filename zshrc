@@ -20,6 +20,7 @@ alias getip-global-'curl -4s icanhazip.com' # returns global ip address
 alias docker-desktop='/opt/docker-desktop/bin/docker-desktop' # launcher docker desktop binary from AUR
 alias steam='/usr/lib/steam/steam' # runs the real steam binary
 alias emacs='emacsclient -c -a emacs' # runs emacsclient rather than emacs (requires emacs daemon to be running)
+alias suckless='doas make clean install' # install suckless software
 alias mpv-nv='mpv --no-video' # mpv-nv is mpv --no-video, for audio
 alias vimR='vim -R' # run vim in read-only mode
 
