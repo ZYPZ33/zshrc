@@ -23,6 +23,7 @@ alias emacs='emacsclient -c -a emacs' # runs emacsclient rather than emacs (requ
 alias suckless='doas make clean install' # install suckless software
 alias mpv-nv='mpv --no-video' # mpv-nv is mpv --no-video, for audio
 alias vimR='vim -R' # run vim in read-only mode
+alias xclipboard='xclip -selection c'
 
 alias cd..='cd ..' # my favourite feature from CP/M
 alias lN='ls|sort -n' # ls sorted numerically
