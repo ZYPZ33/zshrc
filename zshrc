@@ -13,7 +13,8 @@ WLAN0="wlp3s0" # easily acces network interface
 function wiki { dig +short txt $@.wp.dg.cx } # function to access wikipedia
 function exif { identify -verbose $@|grep exif } # get EXIF data from image
 
-alias getip-local="ip a|grep 'inet.*/'|tail -n1|awk '{print \$2}'" # returns local ip address
+# alias getip-local="ip a|grep 'inet.*/'|tail -n1|awk '{print \$2}'" # returns local ip address
+alias getip-local='hostname -i' # better local ip lookup
 alias getip-global-'curl -4s icanhazip.com' # returns global ip address
 
 alias docker-desktop='/opt/docker-desktop/bin/docker-desktop' # launcher docker desktop binary from AUR
