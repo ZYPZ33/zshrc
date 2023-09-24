@@ -12,6 +12,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 WLAN0="wlp3s0" # easily acces network interface
 function wiki { dig +short txt $@.wp.dg.cx } # function to access wikipedia
 function exif { identify -verbose $@|grep exif } # get EXIF data from image
+function wifi-toggle {}
 
 # alias getip-local="ip a|grep 'inet.*/'|tail -n1|awk '{print \$2}'" # returns local ip address
 alias getip-local='hostname -i' # better local ip lookup
