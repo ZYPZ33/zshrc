@@ -32,4 +32,4 @@ alias cd..='cd ..' # my favourite feature from CP/M
 alias lN='ls|sort -n' # ls sorted numerically
 alias l1='ls -1' # list one item per line
 
-alias AI='tgpt' # AI runs chatgpt-cli
+alias AI='tgpt' # AI runs tgpt script
