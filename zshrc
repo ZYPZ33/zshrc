@@ -9,7 +9,7 @@ source $ZSH/oh-my-zsh.sh
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-WLAN0="wlp3s0" # easily acces network interface
+WLAN0="wlp3s0" # easily access network interface
 function wiki { dig +short txt $@.wp.dg.cx } # function to access wikipedia
 function exif { identify -verbose $@|grep exif } # get EXIF data from image
 function wifi-toggle { test "`nmcli radio wifi`" = "enabled"&&nmcli radio wifi off } # turns off wifi radio
